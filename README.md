@@ -24,6 +24,6 @@ This project was prepared for the EER6689 Final Project in Software Engineering 
 * **Developed by Group 10:** 
   * DGM Saubagya
   * KWPGAN Samarathunga
-  * ULS Riffna Banu
+  * ULS Riffna Banu 
   * AH Zeenath Hana
   * A Afrina Ilahi
