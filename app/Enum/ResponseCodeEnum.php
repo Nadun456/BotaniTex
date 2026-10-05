@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Enum;
+
+enum ResponseCodeEnum:String {
+
+    case SUCCESS = 'SUCCESS';
+    case ERROR = 'ERROR';
+    case UNAUTHENTICATED = 'UNAUTHENTICATED';
+    case NO_USER = 'NO_USER';
+    case EXIST_USER = 'EXIST_USER';
+    case VERIFY_MOBILE = 'VERIFY_MOBILE';
+    case VERIFY_EMAIL = 'VERIFY_EMAIL';
+    case INVALID_OTP = 'INVALID_OTP';
+    case COMPLETE_PROFILE = 'COMPLETE_PROFILE';
+    case VERIFY_OTP = 'VERIFY_OTP';
+    case INVALID_TOKEN = 'INVALID_TOKEN';
+    case INVALID_PASSWORD_RESET_TOKEN = 'INVALID_PASSWORD_RESET_TOKEN';
+    case VERIFY_RESET_PASSWORD = 'VERIFY_RESET_PASSWORD';
+
+
+}
