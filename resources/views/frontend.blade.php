@@ -2,12 +2,12 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="layout-navbar-fixed layout-menu-fixed">
 @php
 $settings = [
-'app_name' => App\Models\Settings::where(['key' => 'app_name'])->first()->value,
-'app_description' => App\Models\Settings::where(['key' => 'app_description'])->first()->value,
-'app_keywords' => '',
-'app_author' => '',
-'app_favicon' => App\Models\Settings::where(['key'=>'app_favicon'])->first()->value,
-'app_logo' => '',
+    'app_name' => App\Models\Settings::where('key', 'app_name')->first()?->value ?? 'BotaniTex',
+    'app_description' => App\Models\Settings::where('key', 'app_description')->first()?->value ?? 'AI-powered botanical textile pattern generation',
+    'app_keywords' => '',
+    'app_author' => '',
+    'app_favicon' => App\Models\Settings::where('key', 'app_favicon')->first()?->value ?? '',
+    'app_logo' => '',
 ];
 @endphp
 
